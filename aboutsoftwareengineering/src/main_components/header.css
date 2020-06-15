@@ -1,0 +1,30 @@
+.header_position {
+  position: fixed;
+  top : 0px;
+  left: 0px;
+  right: 0px;
+  height: 85px;
+}
+.header_style {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    border-bottom-style: outset;
+    box-shadow: 10px 10px 8px #888888;
+  }
+  
+.header_title {
+    font-size: calc(15px + 2vmin);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #303952;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+
+.line_header {
+  background-color: #e55039;
+  height: 5px;
+}
